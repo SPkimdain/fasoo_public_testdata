@@ -1,0 +1,33 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: test-lib
+DocumentNamespace: https://www.sparrowfasoo.com/spdx-examples/example6/test-lib
+Creator: Person: Jongwon Yoon (jwyoon@sparrowfasoo.com)
+Created: 2021-08-26T01:55:00Z
+
+PackageName: body-parser
+SPDXID: SPDXRef-Package-body-parser
+PackageFileName: body-parser
+PackageVersion: 1.19.0
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 0d6e1420facd978e532eae7bd5cb6378b65522c12fa9dcf682129e698c34d1b2
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT CONTAINS SPDXRef-Package-body-parser
+
+PackageName: bytes
+SPDXID: SPDXRef-Package-bytes
+PackageFileName: body-bytes
+PackageVersion: 3.1.0
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageChecksum: SHA256: 4448b9e62b3c364a073808e22643985d9f49c4ad44aa11d8e4a17c49600a7c3a
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT CONTAINS SPDXRef-Package-bytes

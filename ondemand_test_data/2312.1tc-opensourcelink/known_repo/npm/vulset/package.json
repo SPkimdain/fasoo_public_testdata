@@ -1,0 +1,15 @@
+{
+  "name": "vulset",
+  "version": "2306.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "lint": "next lint"
+ },
+  "dependencies": {
+    "@ckeditor/ckeditor5-paste-from-office": "^23.0.0"
+  },
+  "devDependencies": {
+    "@ionic/discover": "<=2.0.3"
+  }
+}
